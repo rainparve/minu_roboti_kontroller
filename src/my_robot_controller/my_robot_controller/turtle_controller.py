@@ -23,8 +23,8 @@ class TurtleControllerNode(Node):
             cmd.linear.x = 5.0
             cmd .angular.z = 0.0
         else: 
-            cmd.linear.x = 0.5
-            cmd .angular.z = 2.0 
+            cmd.linear.x = 1.0
+            cmd .angular.z = 1.0 
 
         self._pose_publisher.publish(cmd)
 
